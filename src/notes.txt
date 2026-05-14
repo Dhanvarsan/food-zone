@@ -1,0 +1,7 @@
+useEffect() => will be called after component rendered
+render(application [shimmer UI / loader]) -> apicall (where use effect triggers) -> render (actual data with UI)
+Shimmer UI - rendering  a skeleton UI before we get the api datas. [new standard of showing loadind page]
+Conditional rendering - rendering on the basis of condition. 
+[eg:]
+if(!Data) shimmerUI;
+else rest BodyComponent will render;
