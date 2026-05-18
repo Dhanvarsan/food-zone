@@ -5,3 +5,7 @@ Conditional rendering - rendering on the basis of condition.
 [eg:]
 if(!Data) shimmerUI;
 else rest BodyComponent will render;
+
+useEffect() => if dependency array is not present => it will be called in every render.
+useEffect() => if dependency array is empty [] => it will be called only once on component render.
+useState() => should not be used inside conditions
