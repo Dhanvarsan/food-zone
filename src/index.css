@@ -4,6 +4,13 @@
   border: 0;
   box-sizing: border-box;
 }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
 input {
   padding: 5px 0;
   border: 1px solid #ccc;
@@ -13,6 +20,7 @@ body {
   font-family: 'Great Vibes', cursive !important;
   overflow-x: hidden;
   /* overflow-y: hidden; */
+  margin-top: 100px;
 }
 .Container {
   width: 100%;
@@ -29,6 +37,9 @@ body {
   padding: 20px;
   background: rgb(244, 216, 244);
   color: purple;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .CartBtn {
   padding: 5px 10px;
@@ -115,3 +126,16 @@ button:hover {
 .searchBtn {
   margin-left: 5px;
 }
+.navItems {
+  justify-content: end;
+  gap: 10px;
+}
+.btnSection {
+    gap: 20px;
+}
+.ErrorImg img {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+ }

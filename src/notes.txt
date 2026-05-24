@@ -12,3 +12,7 @@ useState() => should not be used inside conditions|
 
 
 React Router - createBrowserRouter - to create routes with path and elements , RouterProvider to provide Router to React-router-dom
+
+there are 2 types of routing
+- client side routing - whole app is in client side, which can be routed without api calls
+- server side routing - before routing fetch page from APi and render it

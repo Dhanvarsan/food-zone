@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ShimmerUI from "../components/ShimmerUI";
 import HomeCards from "../components/HomeCards";
+import { Link } from "react-router-dom";
 
 const HomeCardSection = () => {
   const [listofRest, setlistofRest] = useState([]);
@@ -11,7 +12,7 @@ const HomeCardSection = () => {
   }, []); // dependency array
   const fetchData = async () => {
     const data = await fetch(
-      "https://free.mockerapi.com/mock/42abf4cb-60b2-44e2-a0de-b93524c50a72",
+      "https://my-json-server.typicode.com/Dhanvarsan/food-zone/restaurants",
     );
     const json = await data.json();
     console.log(json, "json");
@@ -43,29 +44,37 @@ const HomeCardSection = () => {
               setsearchText(e?.target?.value);
             }}
           />
-          <button className="searchBtn" onClick={() => {
-            const filterBySearch = rawListofRest.filter(e => {
-                return e.restaurantName.toLowerCase().includes(searchText.toLowerCase())
-            });
-            console.log(filterBySearch,'filterBySearch');
-            
-            setlistofRest(filterBySearch);
-          }}>Search</button>
+          <button
+            className="searchBtn"
+            onClick={() => {
+              const filterBySearch = rawListofRest.filter((e) => {
+                return e.restaurantName
+                  .toLowerCase()
+                  .includes(searchText.toLowerCase());
+              });
+              console.log(filterBySearch, "filterBySearch");
+
+              setlistofRest(filterBySearch);
+            }}
+          >
+            Search
+          </button>
         </div>
         <button
           className="refreshBtn"
           onClick={() => {
-            setlistofRest(rawListofRest)
-            setsearchText("")
-          }
-        }
+            setlistofRest(rawListofRest);
+            setsearchText("");
+          }}
         >
           ↻
         </button>
       </div>
       <div className="CardContainer">
         {listofRest.map((resturent) => (
-          <HomeCards key={resturent?.id} resData={resturent} />
+          <Link to={`/restaurents/${resturent?.id}`} key={resturent?.id}>
+            <HomeCards resData={resturent} />
+          </Link>
         ))}
       </div>
     </div>
