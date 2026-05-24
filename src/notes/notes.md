@@ -8,7 +8,14 @@ else rest BodyComponent will render;
 
 useEffect() => if dependency array is not present => it will be called in every render.
 useEffect() => if dependency array is empty [] => it will be called only once on component render.
-useState() => should not be used inside conditions|
+useState() => should not be used inside conditions
+useEffect(() => { // it will return a funtion - which will be called on component unmounting
+    //code;
+
+    return () => {
+        console.log('will be called on component unmount') // to clear intervals
+    }
+}, [])
 
 
 React Router - createBrowserRouter - to create routes with path and elements , RouterProvider to provide Router to React-router-dom
