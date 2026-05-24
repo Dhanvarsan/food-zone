@@ -1,0 +1,129 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "restaurantName": "Big Bites",
+      "distance": "2.1 km",
+      "distanceInt": 2.1,
+      "deliveryTime": "25 mins",
+      "menuItems": [
+        {
+          "item": "Lemon Rice",
+          "price": 100
+        },
+        {
+          "item": "Chicken Burger",
+          "price": 180
+        },
+        {
+          "item": "French Fries",
+          "price": 90
+        },
+        {
+          "item": "Chocolate Shake",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "restaurantName": "Spice Garden",
+      "distance": "3.4 km",
+      "distanceInt": 3.4,
+      "deliveryTime": "30 mins",
+      "menuItems": [
+        {
+          "item": "Paneer Butter Masala",
+          "price": 220
+        },
+        {
+          "item": "Butter Naan",
+          "price": 40
+        },
+        {
+          "item": "Veg Fried Rice",
+          "price": 160
+        },
+        {
+          "item": "Gulab Jamun",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "restaurantName": "Burger Hub",
+      "distance": "1.8 km",
+      "distanceInt": 1.8,
+      "deliveryTime": "20 mins",
+      "menuItems": [
+        {
+          "item": "Cheese Burger",
+          "price": 150
+        },
+        {
+          "item": "Veg Wrap",
+          "price": 110
+        },
+        {
+          "item": "Chicken Nuggets",
+          "price": 140
+        },
+        {
+          "item": "Cold Coffee",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "restaurantName": "Pizza Palace",
+      "distance": "4.2 km",
+      "distanceInt": 4.2,
+      "deliveryTime": "35 mins",
+      "menuItems": [
+        {
+          "item": "Margherita Pizza",
+          "price": 250
+        },
+        {
+          "item": "Farmhouse Pizza",
+          "price": 320
+        },
+        {
+          "item": "Garlic Bread",
+          "price": 130
+        },
+        {
+          "item": "Mojito",
+          "price": 90
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "restaurantName": "South Treats",
+      "distance": "2.9 km",
+      "distanceInt": 2.9,
+      "deliveryTime": "28 mins",
+      "menuItems": [
+        {
+          "item": "Masala Dosa",
+          "price": 120
+        },
+        {
+          "item": "Idli Vada",
+          "price": 80
+        },
+        {
+          "item": "Mini Meals",
+          "price": 180
+        },
+        {
+          "item": "Filter Coffee",
+          "price": 50
+        }
+      ]
+    }
+  ]
+}
