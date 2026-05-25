@@ -139,3 +139,19 @@ button:hover {
   margin: auto;
   display: flex;
  }
+ .restaurentContainer {
+  background: #fde7fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 40px;
+  height: 400px;
+  box-shadow: 5px 5px 10px rgba(128, 0, 128, 0.521);
+ }
+ .restaurentContainer h1 {
+  color: white;
+  text-shadow: 2px 2px 5px #000;
+  margin-bottom: 20px;
+ }
+ .restaurentContainer .menuItems li{
+  margin: 20px 0 0 0;
+ }

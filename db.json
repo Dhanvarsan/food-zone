@@ -8,20 +8,28 @@
       "deliveryTime": "25 mins",
       "menuItems": [
         {
+          "id": 101,
           "item": "Lemon Rice",
-          "price": 100
+          "price": 100,
+          "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"
         },
         {
+          "id": 102,
           "item": "Chicken Burger",
-          "price": 180
+          "price": 180,
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
         },
         {
+          "id": 103,
           "item": "French Fries",
-          "price": 90
+          "price": 90,
+          "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f"
         },
         {
+          "id": 104,
           "item": "Chocolate Shake",
-          "price": 120
+          "price": 120,
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699"
         }
       ]
     },
@@ -33,20 +41,28 @@
       "deliveryTime": "30 mins",
       "menuItems": [
         {
+          "id": 201,
           "item": "Paneer Butter Masala",
-          "price": 220
+          "price": 220,
+          "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7"
         },
         {
+          "id": 202,
           "item": "Butter Naan",
-          "price": 40
+          "price": 40,
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950"
         },
         {
+          "id": 203,
           "item": "Veg Fried Rice",
-          "price": 160
+          "price": 160,
+          "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b"
         },
         {
+          "id": 204,
           "item": "Gulab Jamun",
-          "price": 80
+          "price": 80,
+          "image": "https://images.unsplash.com/photo-1605197161470-5c2b4c1f7b5d"
         }
       ]
     },
@@ -58,20 +74,28 @@
       "deliveryTime": "20 mins",
       "menuItems": [
         {
+          "id": 301,
           "item": "Cheese Burger",
-          "price": 150
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1550547660-d9450f859349"
         },
         {
+          "id": 302,
           "item": "Veg Wrap",
-          "price": 110
+          "price": 110,
+          "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f"
         },
         {
+          "id": 303,
           "item": "Chicken Nuggets",
-          "price": 140
+          "price": 140,
+          "image": "https://images.unsplash.com/photo-1562967914-608f82629710"
         },
         {
+          "id": 304,
           "item": "Cold Coffee",
-          "price": 100
+          "price": 100,
+          "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c"
         }
       ]
     },
@@ -83,20 +107,28 @@
       "deliveryTime": "35 mins",
       "menuItems": [
         {
+          "id": 401,
           "item": "Margherita Pizza",
-          "price": 250
+          "price": 250,
+          "image": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143"
         },
         {
+          "id": 402,
           "item": "Farmhouse Pizza",
-          "price": 320
+          "price": 320,
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591"
         },
         {
+          "id": 403,
           "item": "Garlic Bread",
-          "price": 130
+          "price": 130,
+          "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c"
         },
         {
+          "id": 404,
           "item": "Mojito",
-          "price": 90
+          "price": 90,
+          "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd"
         }
       ]
     },
@@ -108,20 +140,28 @@
       "deliveryTime": "28 mins",
       "menuItems": [
         {
+          "id": 501,
           "item": "Masala Dosa",
-          "price": 120
+          "price": 120,
+          "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976"
         },
         {
+          "id": 502,
           "item": "Idli Vada",
-          "price": 80
+          "price": 80,
+          "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0"
         },
         {
+          "id": 503,
           "item": "Mini Meals",
-          "price": 180
+          "price": 180,
+          "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d"
         },
         {
+          "id": 504,
           "item": "Filter Coffee",
-          "price": 50
+          "price": 50,
+          "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
         }
       ]
     }

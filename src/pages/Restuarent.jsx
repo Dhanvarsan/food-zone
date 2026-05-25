@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { RESTAURENT_API } from "../utils/service";
 
 const Restaurent = () => {
   const { resId } = useParams();
@@ -8,29 +9,25 @@ const Restaurent = () => {
     fetchRestaurentData();
   }, []);
   const fetchRestaurentData = async () => {
-    const data = await fetch(
-      "https://my-json-server.typicode.com/Dhanvarsan/food-zone/restaurants/" +
-        resId,
-    );
+    const data = await fetch(RESTAURENT_API + "/" + resId);
     const json = await data.json();
     setRestaurantData(json);
   };
+  console.log(restauentData.menuItems,'ll')
   return (
     restauentData && (
       <div className="restaurentContainer">
         <h1>{restauentData?.restaurantName}</h1>
         <h3>{restauentData?.distance}</h3>
-        <div className="menuItems">
+        <ul className="menuItems">
           {restauentData?.menuItems?.map((items) => {
             return (
-              <ul>
-                <li>
-                  {items.item} - {items.price}
-                </li>
-              </ul>
+              <li key={items.id} className="menu-item">
+                {items.item} - {items.price}
+              </li>
             );
           })}
-        </div>
+        </ul>
       </div>
     )
   );
