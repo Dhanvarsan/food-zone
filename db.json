@@ -1,4 +1,5 @@
-[
+{
+  "restaurants": [
   {
     "id": 1,
     "restaurantName": "Big Bites",
@@ -170,3 +171,4 @@
     ]
   }
 ]
+}
