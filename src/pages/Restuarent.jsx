@@ -1,19 +1,11 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { RESTAURENT_API } from "../utils/service";
+import useRestaurentData from "../utils/useRestaurentData";
 
 const Restaurent = () => {
   const { resId } = useParams();
-  const [restauentData, setRestaurantData] = useState({});
-  useEffect(() => {
-    fetchRestaurentData();
-  }, []);
-  const fetchRestaurentData = async () => {
-    const data = await fetch(RESTAURENT_API + "/" + resId);
-    const json = await data.json();
-    setRestaurantData(json);
-  };
-  console.log(restauentData.menuItems,'ll')
+  const restauentData = useRestaurentData(resId);
   return (
     restauentData && (
       <div className="restaurentContainer">

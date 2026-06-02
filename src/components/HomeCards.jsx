@@ -6,7 +6,7 @@ const HomeCards = (props) => {
   return (
     <div className="card">
       <img
-        src="https://thumbs.dreamstime.com/b/colorful-planet-cute-food-21932075.jpg?w=100"
+        src={resData?.image}
         alt="not-renders"
       />
       <h3>{resData.restaurantName}</h3>

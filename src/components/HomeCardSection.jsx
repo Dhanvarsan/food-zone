@@ -2,22 +2,19 @@ import { useEffect, useState } from "react";
 import ShimmerUI from "../components/ShimmerUI";
 import HomeCards from "../components/HomeCards";
 import { Link } from "react-router-dom";
-import { RESTAURENT_API } from "../utils/service";
+import useRestaurentData from "../utils/useRestaurentData";
 
 const HomeCardSection = () => {
   const [listofRest, setlistofRest] = useState([]);
   const [searchText, setsearchText] = useState("");
   const [rawListofRest, setrawListofRest] = useState([]);
+  const restData = useRestaurentData(); // custom hook to fetch restaurant data
   useEffect(() => {
-    fetchData();
-  }, []); // dependency array
-  const fetchData = async () => {
-    const data = await fetch(RESTAURENT_API);
-    const json = await data.json();
-    console.log(json, "json");
-    setlistofRest(json);
-    setrawListofRest(json);
-  };
+    if(restData && restData.length > 0) {
+      setlistofRest(restData);
+      setrawListofRest(restData);
+    }
+  }, [restData]);
   // Conditional rendering
   if (rawListofRest.length === 0) {
     return <ShimmerUI />;
