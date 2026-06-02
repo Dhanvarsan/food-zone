@@ -2,7 +2,6 @@ import React from "react";
 
 const HomeCards = (props) => {
   const { resData } = props;
-
   return (
     <div className="card">
       <img

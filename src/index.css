@@ -52,12 +52,17 @@ body {
 }
 .card img {
   width: 100%;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
 }
 .CardContainer {
+  margin: 40px 0 0 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
   align-items: center;
+  gap: 20px;
 }
 .body:after {
   content: '';
@@ -74,7 +79,6 @@ body {
 }
 .card {
   background: rgb(255, 211, 255);
-  margin: 15px;
   box-shadow: 0 0 5px #ccc;
   border-radius: 10px;
   color: #ffff;
@@ -144,8 +148,7 @@ button:hover {
   border-radius: 10px;
   padding: 20px;
   margin: 40px;
-  height: 400px;
-  box-shadow: 5px 5px 10px rgba(128, 0, 128, 0.521);
+    box-shadow: 5px 5px 10px rgba(128, 0, 128, 0.521);
  }
  .restaurentContainer h1 {
   color: white;
@@ -154,4 +157,43 @@ button:hover {
  }
  .restaurentContainer .menuItems li{
   margin: 20px 0 0 0;
+ }
+ .menu-item-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+ }
+ .menu-item-name {
+  position: absolute;
+  left:0;
+  bottom: 0;
+  background: purple;
+  padding: 5px 10px;
+  color: #fff;
+ }
+ .menu-item {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 500px;
+ }
+ /* .restaurentContainer .menuItems li {
+ } */
+ .menuItems {
+  flex-wrap: wrap;
+  gap: 20px
+ }
+ .MenuCartBtn {
+  background-color: purple;
+  color: #fff;
+  border: 1px solid purple;
+  margin-right: 20px;
+ }
+ .MenuCartBtn:hover {
+  background-color: #fff;
+  color: purple;
+  border: 1px solid purple;
  }

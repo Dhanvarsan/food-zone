@@ -10,13 +10,23 @@ const Restaurent = () => {
     restauentData && (
       <div className="restaurentContainer">
         <h1>{restauentData?.restaurantName}</h1>
-        <h3>{restauentData?.distance}</h3>
-        <ul className="menuItems">
+        <h3>Distance: {restauentData?.distance}</h3>
+        <ul className="menuItems d-flex">
           {restauentData?.menuItems?.map((items) => {
             return (
-              <li key={items.id} className="menu-item">
-                {items.item} - {items.price}
-              </li>
+              <div key={items.id} className="menu-item d-flex">
+                <div className="d-flex" style={{ gap: "20px" }}>
+                {items.image && (
+                  <img
+                    className="menu-item-image"
+                    src={items.image}
+                      alt={items.item}
+                    />
+                  )}
+                  <span className="menu-item-name">{items.item} - {items.price}/-</span>
+                  </div>
+                <button className="MenuCartBtn">Add to Cart</button>
+                </div>
             );
           })}
         </ul>
