@@ -39,7 +39,9 @@ body {
   color: purple;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
+  z-index: 99;
 }
 .CartBtn {
   padding: 5px 10px;
@@ -117,9 +119,22 @@ button:hover {
   width: 280px;
   height: 280px;
   background: #e4e4e4b2;
+  animation: shimmer 0.5s infinite ease-in-out alternate;
+}
+@keyframes shimmer {
+  0% {
+    opacity: 0.5;
+    background: #fff;
+    width: 0;
+  }
+  100% {
+    width: 100%;
+    background: #ccc;
+    opacity: 1;
+  }
 }
 .shimmer-container {
-  margin-top: 40px;
+  margin-top: 150px;
 }
 .filter-section {
   justify-content: start;

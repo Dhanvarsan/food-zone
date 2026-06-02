@@ -10,7 +10,7 @@ const HomeCardSection = () => {
   const [rawListofRest, setrawListofRest] = useState([]);
   const restData = useRestaurentData(); // custom hook to fetch restaurant data
   useEffect(() => {
-    if(restData && restData.length > 0) {
+    if (restData && restData.length > 0) {
       setlistofRest(restData);
       setrawListofRest(restData);
     }

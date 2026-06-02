@@ -1,44 +1,56 @@
-import React, { useEffect, useState, StrictMode } from "react";
+import React, { useEffect, useState, StrictMode, lazy, Suspense } from "react";
 import HomeCardSection from "./components/HomeCardSection";
 import Header from "./components/header";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import ContactUs from "./pages/ContactUs";
-import Restaurent from "./pages/Restuarent";
+// import Restaurent from "./pages/Restuarent";
 import ErrorPage from "./components/ErrorPage";
 import "./index.css";
 
 const AppLayout = () => {
   return (
     <div className="AppContainer">
-      <Header />
+      <div className="Container">
+        <Header />
+      </div>
       <div className="body">
         <Outlet />
       </div>
     </div>
   );
 };
-const appRouter = createBrowserRouter([
+const Restaurent = lazy(() => import("./pages/Restuarent"));
+const appRouter = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <AppLayout />,
+      children: [
+        {
+          path: "/",
+          element: <HomeCardSection />,
+        },
+        {
+          path: "/restaurents/:resId",
+          element: (
+            <Suspense fallback={<h1>Loading...</h1>}>
+              <Restaurent />
+            </Suspense>
+          ),
+        },
+        {
+          path: "/contact",
+          element: <ContactUs />,
+        },
+      ],
+      errorElement: <ErrorPage />,
+    },
+  ],
   {
-    path: "/",
-    element: <AppLayout />,
-    children: [
-      {
-        path: "/",
-        element: <HomeCardSection />,
-      },
-      {
-        path: "/restaurents/:resId",
-        element: <Restaurent />,
-      },
-      {
-        path: "/contact",
-        element: <ContactUs />,
-      },
-    ],
-    errorElement: <ErrorPage />,
+    basename: process.env.NODE_ENV === "production" ? "/food-zone/" : "/",
   },
-]);
+);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

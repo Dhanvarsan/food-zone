@@ -5,7 +5,9 @@ const Header = () => {
   const [btnName, setBtnName] = useState("Login");
   return (
     <div className="header d-flex">
-      <div>Food ~ Zone</div>
+      <Link to="/" className="logo">
+        <div>Food ~ Zone</div>
+      </Link>
       <div className="btnSection d-flex">
         <ul className="d-flex navItems">
           <li>
