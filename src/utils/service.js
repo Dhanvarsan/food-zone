@@ -1,1 +1,1 @@
-export const RESTAURENT_API = "https://my-json-server.typicode.com/Dhanvarsan/food-zone/restaurants";
+export const RESTAURENT_API = "https://raw.githubusercontent.com/Dhanvarsan/food-zone/main/data/restaurants.json";

@@ -225,3 +225,32 @@ button:hover {
   font-size: 12px;
   border-radius: 5px;
  }
+ .restaurentContainer {
+  position: relative;
+ }
+ .restaurentContainer h3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: purple;
+  text-shadow: 2px 2px 5px #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.menuCategoryHeader {
+  justify-content: space-between;
+  padding: 10px 50px;
+  margin: 10px auto ;
+  width: 100%;
+  max-width: 1050px;
+  background: rgb(244, 216, 244);
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 0 purple;
+  transition: .1s all ease;
+}
+.menuCategoryHeader:hover {
+  box-shadow: 5px 5px 15px rgba(128, 0, 128, 0.663);
+  transition: .1s all ease;
+}
