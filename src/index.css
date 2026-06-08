@@ -212,3 +212,16 @@ button:hover {
   color: purple;
   border: 1px solid purple;
  }
+ .promoted {
+  position: relative;
+}
+ .promoted label {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+ }

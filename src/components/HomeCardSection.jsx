@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ShimmerUI from "../components/ShimmerUI";
-import HomeCards from "../components/HomeCards";
+import HomeCards, { HomeCardPromoted } from "../components/HomeCards";
 import { Link } from "react-router-dom";
 import useRestaurentData from "../utils/useRestaurentData";
 
@@ -9,6 +9,7 @@ const HomeCardSection = () => {
   const [searchText, setsearchText] = useState("");
   const [rawListofRest, setrawListofRest] = useState([]);
   const restData = useRestaurentData(); // custom hook to fetch restaurant data
+  const PromotedCard = HomeCardPromoted(HomeCards); // get the promoted card component
   useEffect(() => {
     if (restData && restData.length > 0) {
       setlistofRest(restData);
@@ -69,7 +70,11 @@ const HomeCardSection = () => {
       <div className="CardContainer">
         {listofRest.map((resturent) => (
           <Link to={`/restaurents/${resturent?.id}`} key={resturent?.id}>
-            <HomeCards resData={resturent} />
+            {resturent?.promoted ? (
+              <PromotedCard resData={resturent} />
+            ) : (
+              <HomeCards resData={resturent} />
+            )}
           </Link>
         ))}
       </div>
