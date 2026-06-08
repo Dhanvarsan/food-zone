@@ -2,7 +2,7 @@ import React, { useEffect, useState, StrictMode, lazy, Suspense } from "react";
 import HomeCardSection from "./components/HomeCardSection";
 import Header from "./components/header";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createHashRouter, RouterProvider, Outlet } from "react-router-dom";
 import ContactUs from "./pages/ContactUs";
 // import Restaurent from "./pages/Restuarent";
 import ErrorPage from "./components/ErrorPage";
@@ -21,7 +21,7 @@ const AppLayout = () => {
   );
 };
 const Restaurent = lazy(() => import("./pages/Restuarent"));
-const appRouter = createBrowserRouter(
+const appRouter = createHashRouter(
   [
     {
       path: "/",
