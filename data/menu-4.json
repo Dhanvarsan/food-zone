@@ -1,0 +1,125 @@
+{
+  "restaurantId": 4,
+  "categories": {
+    "Recommended": [
+      {
+        "id": 401,
+        "item": "Margherita Pizza",
+        "price": 250,
+        "image": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?w=400&q=60",
+        "description": "Classic thin-crust pizza with fresh mozzarella, basil, and tomato sauce."
+      },
+      {
+        "id": 402,
+        "item": "Farmhouse Pizza",
+        "price": 320,
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&q=60",
+        "description": "Loaded with bell peppers, mushrooms, onions, corn, and extra cheese."
+      },
+      {
+        "id": 403,
+        "item": "Pepperoni Pizza",
+        "price": 340,
+        "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&q=60",
+        "description": "Spicy pepperoni slices on a cheesy base with herbed tomato sauce."
+      },
+      {
+        "id": 404,
+        "item": "Cheese Burst Pizza",
+        "price": 360,
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&q=60",
+        "description": "Stuffed crust filled with molten cheese and topped with a four-cheese blend."
+      }
+    ],
+    "Starters": [
+      {
+        "id": 405,
+        "item": "Garlic Bread",
+        "price": 130,
+        "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=400&q=60",
+        "description": "Toasted bread brushed with garlic butter and sprinkled with herbs."
+      },
+      {
+        "id": 406,
+        "item": "Cheese Garlic Bread",
+        "price": 160,
+        "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=400&q=60",
+        "description": "Garlic bread topped with melted mozzarella and a hint of oregano."
+      },
+      {
+        "id": 407,
+        "item": "Bruschetta",
+        "price": 140,
+        "image": "https://images.unsplash.com/photo-1572441713132-51b2b8c8078c?w=400&q=60",
+        "description": "Grilled bread topped with diced tomatoes, basil, and balsamic glaze."
+      },
+      {
+        "id": 408,
+        "item": "Breadsticks",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?w=400&q=60",
+        "description": "Warm, soft breadsticks served with marinara dipping sauce."
+      }
+    ],
+    "MainCourse": [
+      {
+        "id": 409,
+        "item": "BBQ Chicken Pizza",
+        "price": 350,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&q=60",
+        "description": "Smoky BBQ base topped with grilled chicken, onions, and cilantro."
+      },
+      {
+        "id": 410,
+        "item": "Veg Supreme Pizza",
+        "price": 300,
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&q=60",
+        "description": "Garden-fresh vegetables on a cheesy crust with Italian herbs."
+      },
+      {
+        "id": 411,
+        "item": "Mushroom Pizza",
+        "price": 290,
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&q=60",
+        "description": "Sautéed mushrooms and truffle oil on a creamy white sauce base."
+      },
+      {
+        "id": 412,
+        "item": "Paneer Tikka Pizza",
+        "price": 330,
+        "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=400&q=60",
+        "description": "Tandoori paneer chunks with capsicum on a spiced tomato base."
+      }
+    ],
+    "Desserts": [
+      {
+        "id": 413,
+        "item": "Mojito",
+        "price": 90,
+        "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400&q=60",
+        "description": "Refreshing mint-lime mocktail with soda and a hint of sweetness."
+      },
+      {
+        "id": 414,
+        "item": "Tiramisu",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1571877227209-a0d98ea607e9?w=400&q=60",
+        "description": "Italian layered dessert with espresso-soaked ladyfingers and mascarpone."
+      },
+      {
+        "id": 415,
+        "item": "Chocolate Brownie",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&q=60",
+        "description": "Warm fudge brownie served with a scoop of vanilla ice cream."
+      },
+      {
+        "id": 416,
+        "item": "Soft Drink",
+        "price": 50,
+        "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400&q=60",
+        "description": "Chilled carbonated beverage — choose cola, lemon, or orange."
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "restaurantId": 5,
+  "categories": {
+    "Recommended": [
+      {
+        "id": 501,
+        "item": "Masala Dosa",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=400&q=60",
+        "description": "Crispy rice crepe filled with spiced potato masala, served with chutney and sambar."
+      },
+      {
+        "id": 502,
+        "item": "Idli Vada",
+        "price": 80,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=60",
+        "description": "Steamed rice idlis paired with crispy medu vada and fresh chutneys."
+      },
+      {
+        "id": 503,
+        "item": "Mini Meals",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&q=60",
+        "description": "Traditional South Indian thali with rice, sambar, rasam, and poriyal."
+      },
+      {
+        "id": 504,
+        "item": "Ghee Roast Dosa",
+        "price": 140,
+        "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=400&q=60",
+        "description": "Paper-thin dosa roasted in ghee until golden and extra crispy."
+      }
+    ],
+    "Starters": [
+      {
+        "id": 505,
+        "item": "Medu Vada",
+        "price": 70,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=60",
+        "description": "Crispy lentil donuts with a soft center, served with coconut chutney."
+      },
+      {
+        "id": 506,
+        "item": "Sambar Vada",
+        "price": 90,
+        "image": "https://images.unsplash.com/photo-1596797038530-2c107229854b?w=400&q=60",
+        "description": "Medu vada soaked in hot, tangy sambar for a comforting snack."
+      },
+      {
+        "id": 507,
+        "item": "Mirchi Bajji",
+        "price": 60,
+        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&q=60",
+        "description": "Large green chilies stuffed with masala, dipped in batter and fried."
+      },
+      {
+        "id": 508,
+        "item": "Coconut Chutney Platter",
+        "price": 50,
+        "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&q=60",
+        "description": "Assorted chutneys — coconut, tomato, and mint — with mini idlis."
+      }
+    ],
+    "MainCourse": [
+      {
+        "id": 509,
+        "item": "Curd Rice",
+        "price": 100,
+        "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&q=60",
+        "description": "Cooling yogurt rice tempered with mustard seeds, curry leaves, and ginger."
+      },
+      {
+        "id": 510,
+        "item": "Lemon Rice",
+        "price": 100,
+        "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400&q=60",
+        "description": "Tangy lemon-flavored rice with peanuts, curry leaves, and turmeric."
+      },
+      {
+        "id": 511,
+        "item": "Vegetable Biryani",
+        "price": 160,
+        "image": "https://images.unsplash.com/photo-1563379091339-03246963d96c?w=400&q=60",
+        "description": "Aromatic basmati rice cooked with mixed vegetables and South Indian spices."
+      },
+      {
+        "id": 512,
+        "item": "Chettinad Chicken",
+        "price": 240,
+        "image": "https://images.unsplash.com/photo-1588166524941-3bf643a77376?w=400&q=60",
+        "description": "Fiery Chettinad-style chicken curry with freshly ground pepper and spices."
+      }
+    ],
+    "Desserts": [
+      {
+        "id": 513,
+        "item": "Filter Coffee",
+        "price": 50,
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=60",
+        "description": "Strong South Indian filter coffee brewed with chicory and frothy milk."
+      },
+      {
+        "id": 514,
+        "item": "Payasam",
+        "price": 80,
+        "image": "https://images.unsplash.com/photo-1571877227209-a0d98ea607e9?w=400&q=60",
+        "description": "Sweet vermicelli pudding cooked in milk with cashews and raisins."
+      },
+      {
+        "id": 515,
+        "item": "Cold Coffee",
+        "price": 90,
+        "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=400&q=60",
+        "description": "Chilled blended coffee with ice cream for a creamy finish."
+      },
+      {
+        "id": 516,
+        "item": "Kesari Bath",
+        "price": 70,
+        "image": "https://images.unsplash.com/photo-1710354473160-dafce976c2df?w=400&q=60",
+        "description": "Warm semolina halwa flavored with saffron, ghee, and cardamom."
+      }
+    ]
+  }
+}

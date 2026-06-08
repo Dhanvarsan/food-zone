@@ -1,0 +1,125 @@
+{
+  "restaurantId": 2,
+  "categories": {
+    "Recommended": [
+      {
+        "id": 201,
+        "item": "Paneer Butter Masala",
+        "price": 220,
+        "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&q=60",
+        "description": "Soft paneer cubes simmered in a rich, creamy tomato and butter gravy."
+      },
+      {
+        "id": 202,
+        "item": "Dal Makhani",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&q=60",
+        "description": "Slow-cooked black lentils finished with cream and aromatic spices."
+      },
+      {
+        "id": 203,
+        "item": "Chicken Biryani",
+        "price": 280,
+        "image": "https://images.unsplash.com/photo-1563379091339-03246963d96c?w=400&q=60",
+        "description": "Fragrant basmati rice layered with spiced chicken and saffron."
+      },
+      {
+        "id": 204,
+        "item": "Butter Naan",
+        "price": 40,
+        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&q=60",
+        "description": "Soft tandoor-baked naan brushed generously with melted butter."
+      }
+    ],
+    "Starters": [
+      {
+        "id": 205,
+        "item": "Paneer Tikka",
+        "price": 200,
+        "image": "https://images.unsplash.com/photo-1596797038530-2c107229854b?w=400&q=60",
+        "description": "Marinated paneer cubes grilled in a tandoor with bell peppers and onions."
+      },
+      {
+        "id": 206,
+        "item": "Samosa",
+        "price": 60,
+        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&q=60",
+        "description": "Crispy pastry filled with spiced potatoes and peas, served with chutney."
+      },
+      {
+        "id": 207,
+        "item": "Veg Spring Roll",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1525751102-1e3d5664a0bd?w=400&q=60",
+        "description": "Crispy rolls stuffed with finely chopped vegetables and Indo-Chinese spices."
+      },
+      {
+        "id": 208,
+        "item": "Papad",
+        "price": 30,
+        "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&q=60",
+        "description": "Roasted lentil wafers served with tangy mint and tamarind chutney."
+      }
+    ],
+    "MainCourse": [
+      {
+        "id": 209,
+        "item": "Veg Fried Rice",
+        "price": 160,
+        "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&q=60",
+        "description": "Wok-tossed rice with mixed vegetables, soy sauce, and mild spices."
+      },
+      {
+        "id": 210,
+        "item": "Palak Paneer",
+        "price": 210,
+        "image": "https://images.unsplash.com/photo-1603894584375-5a8afbe1a1f6?w=400&q=60",
+        "description": "Fresh spinach puree cooked with paneer cubes and traditional masalas."
+      },
+      {
+        "id": 211,
+        "item": "Chicken Curry",
+        "price": 250,
+        "image": "https://images.unsplash.com/photo-1588166524941-3bf643a77376?w=400&q=60",
+        "description": "Tender chicken pieces in a hearty North Indian onion-tomato gravy."
+      },
+      {
+        "id": 212,
+        "item": "Chole Bhature",
+        "price": 170,
+        "image": "https://images.unsplash.com/photo-1626132647503-8910f4a360a6?w=400&q=60",
+        "description": "Spiced chickpea curry served with fluffy deep-fried bhature."
+      }
+    ],
+    "Desserts": [
+      {
+        "id": 213,
+        "item": "Gulab Jamun",
+        "price": 80,
+        "image": "https://images.unsplash.com/photo-1710354473160-dafce976c2df?w=400&q=60",
+        "description": "Soft milk-solid dumplings soaked in warm rose-flavored sugar syrup."
+      },
+      {
+        "id": 214,
+        "item": "Rasmalai",
+        "price": 100,
+        "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&q=60",
+        "description": "Soft cheese patties soaked in sweetened, cardamom-infused milk."
+      },
+      {
+        "id": 215,
+        "item": "Kheer",
+        "price": 90,
+        "image": "https://images.unsplash.com/photo-1571877227209-a0d98ea607e9?w=400&q=60",
+        "description": "Creamy rice pudding slow-cooked with milk, nuts, and saffron."
+      },
+      {
+        "id": 216,
+        "item": "Mango Lassi",
+        "price": 70,
+        "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=400&q=60",
+        "description": "Chilled yogurt drink blended with ripe Alphonso mango pulp."
+      }
+    ]
+  }
+}

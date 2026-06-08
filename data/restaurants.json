@@ -1,0 +1,49 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "restaurantName": "Big Bites",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=60",
+      "distance": "2.1 km",
+      "distanceInt": 2.1,
+      "deliveryTime": "25 mins",
+      "promoted": true
+    },
+    {
+      "id": 2,
+      "restaurantName": "Spice Garden",
+      "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&q=60",
+      "distance": "3.4 km",
+      "distanceInt": 3.4,
+      "deliveryTime": "30 mins",
+      "promoted": false
+    },
+    {
+      "id": 3,
+      "restaurantName": "Burger Hub",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&q=60",
+      "distance": "1.8 km",
+      "distanceInt": 1.8,
+      "deliveryTime": "20 mins",
+      "promoted": false
+    },
+    {
+      "id": 4,
+      "restaurantName": "Pizza Palace",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&q=60",
+      "distance": "4.2 km",
+      "distanceInt": 4.2,
+      "deliveryTime": "35 mins",
+      "promoted": true
+    },
+    {
+      "id": 5,
+      "restaurantName": "South Treats",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=60",
+      "distance": "2.9 km",
+      "distanceInt": 2.9,
+      "deliveryTime": "28 mins",
+      "promoted": false
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "restaurantId": 3,
+  "categories": {
+    "Recommended": [
+      {
+        "id": 301,
+        "item": "Cheese Burger",
+        "price": 150,
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=400&q=60",
+        "description": "Classic beef patty with melted American cheese, lettuce, and special sauce."
+      },
+      {
+        "id": 302,
+        "item": "Double Patty Burger",
+        "price": 210,
+        "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=400&q=60",
+        "description": "Two juicy patties with double cheese, pickles, and smoky mayo."
+      },
+      {
+        "id": 303,
+        "item": "Crispy Chicken Burger",
+        "price": 190,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&q=60",
+        "description": "Crunchy fried chicken fillet with coleslaw and spicy mayo in a brioche bun."
+      },
+      {
+        "id": 304,
+        "item": "Hub Special Meal",
+        "price": 320,
+        "image": "https://images.unsplash.com/photo-1594212699903-ec81475f7f58?w=400&q=60",
+        "description": "Fan-favorite meal with a cheese burger, fries, nuggets, and a cold drink."
+      }
+    ],
+    "Starters": [
+      {
+        "id": 305,
+        "item": "Chicken Nuggets",
+        "price": 140,
+        "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=400&q=60",
+        "description": "Crispy bite-sized chicken nuggets served with tangy dipping sauce."
+      },
+      {
+        "id": 306,
+        "item": "Veg Wrap",
+        "price": 110,
+        "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400&q=60",
+        "description": "Grilled vegetables and hummus wrapped in a soft whole-wheat tortilla."
+      },
+      {
+        "id": 307,
+        "item": "Potato Wedges",
+        "price": 100,
+        "image": "https://images.unsplash.com/photo-1573080496219-b998081fe447?w=400&q=60",
+        "description": "Seasoned potato wedges baked until crispy with herb seasoning."
+      },
+      {
+        "id": 308,
+        "item": "Onion Rings",
+        "price": 95,
+        "image": "https://images.unsplash.com/photo-1639024411284-1a6968338f3c?w=400&q=60",
+        "description": "Lightly battered onion rings fried to a golden crunch."
+      }
+    ],
+    "MainCourse": [
+      {
+        "id": 309,
+        "item": "BBQ Chicken Burger",
+        "price": 200,
+        "image": "https://images.unsplash.com/photo-1553979459-7020f0796192?w=400&q=60",
+        "description": "Grilled chicken patty glazed with smoky BBQ sauce and cheddar."
+      },
+      {
+        "id": 310,
+        "item": "Veg Deluxe Burger",
+        "price": 160,
+        "image": "https://images.unsplash.com/photo-1520077699292-476c0858652e?w=400&q=60",
+        "description": "Loaded veggie patty with avocado, tomato, and herb aioli."
+      },
+      {
+        "id": 311,
+        "item": "Fish Burger",
+        "price": 220,
+        "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=400&q=60",
+        "description": "Crispy fish fillet with tartar sauce and shredded lettuce."
+      },
+      {
+        "id": 312,
+        "item": "Spicy Paneer Burger",
+        "price": 170,
+        "image": "https://images.unsplash.com/photo-1594212699903-ec81475f7f58?w=400&q=60",
+        "description": "Spiced paneer patty with jalapeños, cheese, and chipotle mayo."
+      }
+    ],
+    "Desserts": [
+      {
+        "id": 313,
+        "item": "Cold Coffee",
+        "price": 100,
+        "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=400&q=60",
+        "description": "Chilled coffee blended with milk, ice, and a touch of vanilla."
+      },
+      {
+        "id": 314,
+        "item": "Chocolate Shake",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&q=60",
+        "description": "Thick chocolate shake made with real ice cream and cocoa."
+      },
+      {
+        "id": 315,
+        "item": "Ice Cream Cone",
+        "price": 60,
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&q=60",
+        "description": "Classic vanilla soft-serve in a crispy waffle cone."
+      },
+      {
+        "id": 316,
+        "item": "Choco Brownie",
+        "price": 90,
+        "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&q=60",
+        "description": "Dense, fudgy chocolate brownie with a crackly top."
+      }
+    ]
+  }
+}
