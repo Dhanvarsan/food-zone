@@ -21,36 +21,31 @@ const AppLayout = () => {
   );
 };
 const Restaurent = lazy(() => import("./pages/Restuarent"));
-const appRouter = createHashRouter(
-  [
-    {
-      path: "/",
-      element: <AppLayout />,
-      children: [
-        {
-          path: "/",
-          element: <HomeCardSection />,
-        },
-        {
-          path: "/restaurents/:resId",
-          element: (
-            <Suspense fallback={<h1>Loading...</h1>}>
-              <Restaurent />
-            </Suspense>
-          ),
-        },
-        {
-          path: "/contact",
-          element: <ContactUs />,
-        },
-      ],
-      errorElement: <ErrorPage />,
-    },
-  ],
+const appRouter = createHashRouter([
   {
-    basename: process.env.NODE_ENV === "production" ? "/food-zone/" : "/",
+    path: "/",
+    element: <AppLayout />,
+    children: [
+      {
+        path: "/",
+        element: <HomeCardSection />,
+      },
+      {
+        path: "/restaurents/:resId",
+        element: (
+          <Suspense fallback={<h1>Loading...</h1>}>
+            <Restaurent />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/contact",
+        element: <ContactUs />,
+      },
+    ],
+    errorElement: <ErrorPage />,
   },
-);
+]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
