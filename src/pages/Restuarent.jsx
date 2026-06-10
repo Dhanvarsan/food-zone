@@ -22,7 +22,7 @@ const Restaurent = () => {
     restauentData && (
       <div className="restaurentContainer">
         <h1 style={{ textAlign: "center" }}>
-          {restauentData[resId]?.restaurantName}
+          {restauentData[resId - 1]?.restaurantName}
         </h1>
         <h3>Distance: {restauentData[resId]?.distance}</h3>
         {menuItems &&
