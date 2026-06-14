@@ -11,7 +11,7 @@ const HomeCardSection = () => {
   const [rawListofRest, setrawListofRest] = useState([]);
   const restData = useRestaurentData(); // custom hook to fetch restaurant data
   const PromotedCard = HomeCardPromoted(HomeCards); // get the promoted card component
-  const { user, setUserName } = useContext(userContext);
+  const { promoName, setpromoName } = useContext(userContext);
   useEffect(() => {
     if (restData && restData.length > 0) {
       setlistofRest(restData);
@@ -70,17 +70,18 @@ const HomeCardSection = () => {
         </button>
         <input
           type="text"
-          placeholder="Enter Username"
+          placeholder="Enter PromoCode"
+          title="(Applies only for promoted items)"
           style={{ padding: "5px" }}
-          onChange={(e) => setUserName(e.target.value)}
-          value={user}
+          onChange={(e) => setpromoName(e.target.value)}
+          value={promoName}
         />
       </div>
       <div className="CardContainer">
         {listofRest.map((resturent) => (
           <Link to={`/restaurents/${resturent?.id}`} key={resturent?.id}>
             {resturent?.promoted ? (
-              <PromotedCard resData={resturent} user={user} />
+              <PromotedCard resData={resturent} promoName={promoName} />
             ) : (
               <HomeCards resData={resturent} />
             )}

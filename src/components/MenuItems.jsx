@@ -1,4 +1,10 @@
+import { useDispatch } from "react-redux";
+import { addItem } from "../stores/cartSlice";
 const MenuItems = ({ menuItem }) => {
+  const dispatch = useDispatch();
+  const addToCart = (menuItem) => {
+    dispatch(addItem(menuItem));
+  };
   return (
     <div key={menuItem.id} className="menu-item d-flex">
       <div className="d-flex" style={{ gap: "20px" }}>
@@ -13,7 +19,9 @@ const MenuItems = ({ menuItem }) => {
           {menuItem.item} - {menuItem.price}/-
         </span>
       </div>
-      <button className="MenuCartBtn">Add to Cart</button>
+      <button className="MenuCartBtn" onClick={() => addToCart(menuItem)}>
+        Add to Cart
+      </button>
     </div>
   );
 };

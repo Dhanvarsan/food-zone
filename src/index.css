@@ -44,8 +44,20 @@ body {
   z-index: 99;
 }
 .CartBtn {
-  padding: 5px 10px;
   border-radius: 5px;
+}
+.CartBtn:hover .cartCount{
+  background: #fff;
+  color: #000;
+}
+.cartCount {
+  padding: 2px 8px;
+  background: purple;
+  color: #fff;
+  border-radius: 5px;
+}
+.CartBtn span:first-child {
+  padding: 2px 8px;
 }
 .card {
   width: 100%;

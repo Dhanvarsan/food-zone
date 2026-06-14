@@ -19,13 +19,13 @@ import appStore from "./stores/appStore";
 import "./index.css";
 
 const AppLayout = () => {
-  const [userName, setUserName] = useState("");
+  const [promoName, setpromoName] = useState("");
   useEffect(() => {
-    setUserName("Dhanvarsan");
+    setpromoName("PROMO100");
   }, []);
   return (
     <Provider store={appStore}>
-      <userContext.Provider value={{ user: userName, setUserName }}>
+      <userContext.Provider value={{ promoName: promoName, setpromoName }}>
         <div className="AppContainer">
           <div className="Container">
             <Header />
