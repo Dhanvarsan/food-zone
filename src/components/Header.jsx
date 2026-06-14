@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import userContext from "../utils/UserContext";
+
 
 const Header = () => {
   const [btnName, setBtnName] = useState("Login");
+  const  {user} = useContext(userContext);
   return (
     <div className="header d-flex">
       <Link to="/" className="logo">
@@ -29,6 +32,7 @@ const Header = () => {
         >
           {btnName}
         </button>
+        <span>{user}</span>
       </div>
     </div>
   );

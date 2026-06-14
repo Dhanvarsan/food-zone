@@ -1,4 +1,11 @@
-import React, { useEffect, useState, StrictMode, lazy, Suspense } from "react";
+import React, {
+  useEffect,
+  useState,
+  StrictMode,
+  lazy,
+  Suspense,
+  useContext,
+} from "react";
 import HomeCardSection from "./components/HomeCardSection";
 import Header from "./components/header";
 import { createRoot } from "react-dom/client";
@@ -6,18 +13,29 @@ import { createHashRouter, RouterProvider, Outlet } from "react-router-dom";
 import ContactUs from "./pages/ContactUs";
 // import Restaurent from "./pages/Restuarent";
 import ErrorPage from "./components/ErrorPage";
+import userContext from "./utils/UserContext";
+import { Provider } from "react-redux";
+import appStore from "./stores/appStore";
 import "./index.css";
 
 const AppLayout = () => {
+  const [userName, setUserName] = useState("");
+  useEffect(() => {
+    setUserName("Dhanvarsan");
+  }, []);
   return (
-    <div className="AppContainer">
-      <div className="Container">
-        <Header />
-      </div>
-      <div className="body">
-        <Outlet />
-      </div>
-    </div>
+    <Provider store={appStore}>
+      <userContext.Provider value={{ user: userName, setUserName }}>
+        <div className="AppContainer">
+          <div className="Container">
+            <Header />
+          </div>
+          <div className="body">
+            <Outlet />
+          </div>
+        </div>
+      </userContext.Provider>
+    </Provider>
   );
 };
 const Restaurent = lazy(() => import("./pages/Restuarent"));

@@ -1,7 +1,7 @@
 import React from "react";
 
 const HomeCards = (props) => {
-  const { resData } = props;
+  const { resData, user } = props;
   return (
     <div className="card">
       {/* {resData.promoted ? <label>Promoted</label> : null} usual approach what i do */}
@@ -10,6 +10,7 @@ const HomeCards = (props) => {
       <div>
         {resData?.distance} ~ {resData?.deliveryTime}
       </div>
+      <div style={{ color: "#000" }}>{user || ""}</div>
     </div>
   );
 };
